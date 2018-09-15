@@ -1,0 +1,32 @@
+{
+  "name": "callback-class",
+  "version": "1.0.0",
+  "description": "I am a simple man. I don’t need any super complicated callback function or class. I just need a light, easy to use and reliable callback class for any purpose. Do you want the same think? Well nice, because I made one!",
+  "main": "dist/src/callback.js",
+  "typings": "dist/src/callback.d.ts",
+  "scripts": {
+    "test": "node ./dist/tests/callback_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drozdik-m/callback-class.git"
+  },
+  "keywords": [
+    "callback",
+    "class",
+    "light",
+    "easy",
+    "simple",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "Martin Drozdík <info@bonsai-development.cz> (http://bonsai-development.cz)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/drozdik-m/callback-class/issues"
+  },
+  "homepage": "https://github.com/drozdik-m/callback-class#readme",
+  "dependencies": {
+    "assert-testing": "^1.0.9"
+  }
+}
