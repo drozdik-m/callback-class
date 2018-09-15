@@ -167,4 +167,6 @@ myMenu.OnMenuChange.Add(function (status){
 
 There is a testing file included in this module ("callback-class/tests/callback_tests.ts" for TypeScript or "callback-class/dist/tests/cakllback_tests.js" for JavaScript). The test is ridicilously long for such a simple code, so you may find more examples of the the Callback class there.
 
+___
+
 Sorry for my English, I hope it's readable.

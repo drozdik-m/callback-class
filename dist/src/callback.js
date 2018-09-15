@@ -14,7 +14,6 @@ var Callback = /** @class */ (function () {
         //Array of callback functions
         this.callbacks = [];
         this.defaultFunction = function () { };
-        console.log("test");
     }
     //--------------------------------------------------
     //----------METHODS---------------------------------
