@@ -78,7 +78,7 @@ callback.Add(function(){
 	console.log("Callback called");
 });
 
-//Execute all added functions - usually executed by guy that created the "trigger environment" or a class
+//Execute all added functions - usually executed by guy that created the "trigger enviroment" or a class
 callback.Execute();
 callback.Execute(parameter1, parameter1); //Any number of parameters you want ("rest" parameter)
 
