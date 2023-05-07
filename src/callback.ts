@@ -1,7 +1,6 @@
 ﻿
 /**
  * Callback class - Holds functions, that can be added and called
- * @author Martin Drozdík <info@bonsai-development.cz> (https://bonsai-development.cz/)
  */
 export class Callback
 {

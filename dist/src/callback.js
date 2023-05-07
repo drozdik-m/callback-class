@@ -1,7 +1,7 @@
 exports.__esModule = true;
+exports.Callback = void 0;
 /**
  * Callback class - Holds functions, that can be added and called
- * @author Martin Drozdík <info@bonsai-development.cz> (https://bonsai-development.cz/)
  */
 var Callback = /** @class */ (function () {
     //--------------------------------------------------
@@ -50,13 +50,13 @@ var Callback = /** @class */ (function () {
      * @param args Rest parameter
      */
     Callback.prototype.Execute = function () {
+        var _a;
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
             args[_i] = arguments[_i];
         }
         for (var i = 0; i < this.callbacks.length; i++)
             (_a = this.callbacks)[i].apply(_a, args);
-        var _a;
     };
     return Callback;
 }());

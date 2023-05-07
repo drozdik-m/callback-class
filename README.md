@@ -1,6 +1,3 @@
-
-![Callback class - banner](images/callback-heading-image.png?raw=true "Callback - easy and light callback class")
-
 # Callback
 
 "Callback" is a **simple class for managing callbacks**. This module is easy to use, light, small and has **no dependencies**, except assert-testing module for testing (not needed for usage).
